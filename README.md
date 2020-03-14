@@ -86,5 +86,5 @@ fastai saves trained models in the folder `models/` relative to the training scr
 In `*.ipynb` there is analysis of a network with a 3D latent space (i.e. a 4/3 compression ratio), with histogram comparisons of the different values and residual plots. Special attention might be given to these residuals as they tell a lot about the performance of the network.
 
 ## Saving back uncompressed data
-To save a 4-dim multi-dimensional array of decoded data, we use numpy.save on the decoded numpy array to get `reduced_features` file.
+To save a 4-dim multi-dimensional array of decoded data, we use numpy.save on the decoded numpy array to get `reduced_features.npy` file.
 
