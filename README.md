@@ -8,6 +8,8 @@ Given 4-dimensional data our objective is to use autoencoder network to reduce t
 
 [Setup](#setup)
 
+[Run](#run)
+
 [Quick guide](#quick-guide)
 
 [Data extraction](#data-extraction)
@@ -39,6 +41,11 @@ Install dependencies (from inside the container):
 `pip3 install hwcounter`
 
 With jupyter-notebook running, one can access it on the hostmachine from the URL localhost:8899
+
+
+## Run
+- To run the notebook install all the dependencies as given under 'Setup' tab or use Google Colab. Put the train and test pickle file in the same folder as the Notebook and run all cell
+- For more information regarding each function definition, refer to in-code comments
 
 ## Quick guide
 **Pre-processing:** Not required as the processed data is already available in `all_jets_test_4D_100_percent.pkl` and `all_jets_train_4D_100_percent.pkl` files
